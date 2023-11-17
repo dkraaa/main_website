@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.darker-header {
+  background-color: #000; /* Sehr dunkles Schwarz */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.darker-header h1 {
+  margin: 0;
+}
+
+.header-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.header-nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.header-nav li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header-nav li a:hover {
+  color: #ddd;
+}
+
+.lighter-bg {
+  background-color: #111; /* Etwas helleres Schwarz */
+  color: #fff;
+  padding: 20px;
+}
+
+footer {
+  background-color: #000; /* Übernahme der Farbe des Headers */
+  color: #fff; /* Textfarbe wie im Header */
+  padding: 20px;
+}
+
+.contact-info h3 {
+  text-align: left; /* Überschrift links ausrichten */
+  margin-bottom: 10px; /* Abstand nach der Überschrift */
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info ul li {
+  margin-bottom: 5px; /* Abstand zwischen den Kontaktinformationen */
+}
